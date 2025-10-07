@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, Mail, Phone, MapPin, ExternalLink, Code, Zap, Award, TrendingUp, Users, Globe, ChevronDown, Menu, X } from 'lucide-react';
 
 const Portfolio = () => {
-  const [activeSection, setActiveSection] = useState('home');
   const [scrollY, setScrollY] = useState(0);
   const [menuOpen, setMenuOpen] = useState(false);
   const [typedText, setTypedText] = useState('');
@@ -36,7 +35,7 @@ const Portfolio = () => {
       }
     }, 100);
     return () => clearInterval(interval);
-  }, [currentTitleIndex]);
+  }, [currentTitleIndex, titles]);
 
   const projects = [
     {

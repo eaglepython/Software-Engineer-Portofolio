@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { Github, Linkedin, Mail, Phone, MapPin, ExternalLink, Code, Zap, Award, TrendingUp, Users, Globe, ChevronDown, Menu, X } from 'lucide-react';
 
 const Portfolio = () => {
@@ -6,12 +6,12 @@ const Portfolio = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [typedText, setTypedText] = useState('');
   
-  const titles = [
+  const titles = useMemo(() => [
     'Full-Stack Software Engineer',
     'Quantitative Developer',
     'AI/ML Engineer',
     'Cloud Architecture Specialist'
-  ];
+  ], []);
   const [currentTitleIndex, setCurrentTitleIndex] = useState(0);
 
   useEffect(() => {

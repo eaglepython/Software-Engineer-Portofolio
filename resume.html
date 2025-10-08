@@ -191,14 +191,14 @@
         .print-button {
             position: fixed;
             top: 20px;
-            right: 20px;
+            right: 160px;
             background: #2563eb;
             color: white;
             border: none;
-            padding: 12px 24px;
+            padding: 12px 20px;
             border-radius: 8px;
             cursor: pointer;
-            font-size: 14px;
+            font-size: 13px;
             font-weight: 600;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             transition: all 0.3s;
@@ -208,6 +208,32 @@
             background: #1e40af;
             transform: translateY(-2px);
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .download-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #dc2626;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .download-button:hover {
+            background: #b91c1c;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            color: white;
+            text-decoration: none;
         }
 
         .back-button {
@@ -236,8 +262,9 @@
     </style>
 </head>
 <body>
-    <a href="../index.html" class="back-button no-print">← Back to Portfolio</a>
-    <button class="print-button no-print" onclick="window.print()">🖨️ Print / Save as PDF</button>
+    <a href="./" class="back-button no-print">← Back to Portfolio</a>
+    <button class="print-button no-print" onclick="window.print()">🖨️ Print PDF</button>
+    <a href="./resume.html" download="Joseph_Bidias_Resume.html" class="download-button no-print">📥 Download</a>
     
     <div class="header">
         <h1>JOSEPH BIDIAS</h1>

@@ -79,7 +79,6 @@ const Portfolio = () => {
       description: 'AI risk assessment system for healthcare environments with automated bias detection, HIPAA compliance monitoring, and multi-vendor comparison. Serves 200,000+ patients with 95% bias detection accuracy.',
       tech: ['Python', 'FastAPI', 'TensorFlow', 'React', 'TypeScript', 'PostgreSQL'],
       metrics: ['200K+ Patients', '95% Bias Detection', 'HIPAA Compliant', 'Multi-vendor Support'],
-      liveUrl: 'https://eaglepython.github.io/healthcare-llm-governance-toolkit/',
       githubUrl: 'https://github.com/eaglepython/healthcare-llm-governance-toolkit',
       gradient: 'from-emerald-400 to-teal-500',
       icon: '🏥'
@@ -91,7 +90,6 @@ const Portfolio = () => {
       description: 'Production system handling 10,000+ requests/day with intelligent load balancer across OpenAI, Anthropic, and Cohere. Features automatic failover, cost optimization, and real-time monitoring.',
       tech: ['Node.js', 'Express.js', 'Redis', 'OpenAI API', 'Anthropic', 'React'],
       metrics: ['10K+ Requests/Day', '99.9% Uptime', '<150ms Failover', '15% Cost Savings'],
-      liveUrl: 'https://eaglepython.github.io/multi-llm-orchestration-platform/',
       githubUrl: 'https://github.com/eaglepython/multi-llm-orchestration-platform',
       gradient: 'from-violet-400 to-purple-500',
       icon: '🔀'
@@ -103,7 +101,6 @@ const Portfolio = () => {
       description: 'Real-time AI ethics monitoring platform with automated bias detection, fairness metrics tracking, and compliance reporting. Integrates with major ML platforms for comprehensive oversight.',
       tech: ['Python', 'Streamlit', 'scikit-learn', 'Plotly', 'MLflow', 'Docker'],
       metrics: ['Real-time Monitoring', 'Multi-platform Support', 'Automated Reporting', 'Bias Detection'],
-      liveUrl: 'https://eaglepython.github.io/ai-ethics-monitoring-dashboard/',
       githubUrl: 'https://github.com/eaglepython/ai-ethics-dashboard',
       gradient: 'from-pink-400 to-rose-500',
       icon: '⚖️'

@@ -71,6 +71,42 @@ const Portfolio = () => {
       githubUrl: 'https://github.com/eaglepython/DOM-Project',
       gradient: 'from-green-400 to-emerald-500',
       icon: '📚'
+    },
+    {
+      id: 6,
+      title: 'Healthcare LLM Governance Toolkit',
+      subtitle: 'AI Risk Assessment • Healthcare',
+      description: 'AI risk assessment system for healthcare environments with automated bias detection, HIPAA compliance monitoring, and multi-vendor comparison. Serves 200,000+ patients with 95% bias detection accuracy.',
+      tech: ['Python', 'FastAPI', 'TensorFlow', 'React', 'TypeScript', 'PostgreSQL'],
+      metrics: ['200K+ Patients', '95% Bias Detection', '22% Risk Reduction', 'HIPAA Compliant'],
+      liveUrl: 'https://eaglepython.github.io/healthcare-llm-governance-toolkit',
+      githubUrl: 'https://github.com/eaglepython/healthcare-llm-governance-toolkit',
+      gradient: 'from-emerald-500 to-teal-500',
+      icon: '🏥'
+    },
+    {
+      id: 7,
+      title: 'Multi-LLM Orchestration Platform',
+      subtitle: 'AI Systems • Vendor Diversity',
+      description: 'Vendor diversity solution preventing algorithmic concentration risk with intelligent load balancing, automatic failover, and cost optimization. Handles 10K+ requests/day with 99.9% uptime.',
+      tech: ['Python', 'FastAPI', 'OpenAI', 'Anthropic', 'Redis', 'Prometheus'],
+      metrics: ['10K+ Requests/Day', '99.9% Uptime', '<150ms Failover', '15% Cost Savings'],
+      liveUrl: 'https://eaglepython.github.io/multi-llm-orchestration-platform/',
+      githubUrl: 'https://github.com/eaglepython/multi-llm-orchestration-platform',
+      gradient: 'from-purple-500 to-pink-500',
+      icon: '🔄'
+    },
+    {
+      id: 8,
+      title: 'AI Ethics Monitoring Dashboard',
+      subtitle: 'Real-time AI Accountability',
+      description: 'Real-time oversight system providing continuous AI accountability with bias monitoring, fairness metrics visualization, and automated reporting. Achieves 95% faster bias detection.',
+      tech: ['React', 'TypeScript', 'FastAPI', 'WebSocket', 'D3.js', 'PostgreSQL'],
+      metrics: ['95% Faster Detection', '20hrs/week Saved', 'Real-time Alerts', 'Audit Trail'],
+      liveUrl: 'https://eaglepython.github.io/ai-ethics-monitoring-dashboard/',
+      githubUrl: 'https://github.com/eaglepython/ai-ethics-monitoring-dashboard',
+      gradient: 'from-red-500 to-rose-500',
+      icon: '📊'
     }
   ];
 
@@ -300,6 +336,209 @@ const Portfolio = () => {
               <div>
                 <div className="text-3xl font-bold text-purple-400">5μs</div>
                 <div className="text-sm text-gray-400">Latency</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Skills Section */}
+      <section id="skills" className="py-20 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-cyan-400">
+              Technical Expertise
+            </h2>
+            <p className="text-gray-400 text-lg max-w-3xl mx-auto">
+              Comprehensive skill set spanning full-stack development, AI/ML systems, and financial technology
+            </p>
+          </div>
+
+          {/* Core Programming Languages */}
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold text-white mb-8 text-center">Programming Languages & Frameworks</h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-6 border border-gray-800 hover:border-yellow-400/50 transition-all">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
+                  <h4 className="text-lg font-semibold text-yellow-400">Python</h4>
+                </div>
+                <div className="text-sm text-gray-400 space-y-1">
+                  <div>• FastAPI & Flask</div>
+                  <div>• TensorFlow & PyTorch</div>
+                  <div>• Async/Await</div>
+                  <div>• Data Science Stack</div>
+                </div>
+              </div>
+
+              <div className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-6 border border-gray-800 hover:border-blue-400/50 transition-all">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-3 h-3 bg-blue-400 rounded-full"></div>
+                  <h4 className="text-lg font-semibold text-blue-400">JavaScript/TypeScript</h4>
+                </div>
+                <div className="text-sm text-gray-400 space-y-1">
+                  <div>• React 19 & Next.js</div>
+                  <div>• Node.js & Express</div>
+                  <div>• DOM Manipulation</div>
+                  <div>• ES6+ Features</div>
+                </div>
+              </div>
+
+              <div className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-6 border border-gray-800 hover:border-red-400/50 transition-all">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-3 h-3 bg-red-400 rounded-full"></div>
+                  <h4 className="text-lg font-semibold text-red-400">Frontend Technologies</h4>
+                </div>
+                <div className="text-sm text-gray-400 space-y-1">
+                  <div>• React & TypeScript</div>
+                  <div>• Vite & Webpack</div>
+                  <div>• Tailwind CSS</div>
+                  <div>• D3.js & Chart.js</div>
+                </div>
+              </div>
+
+              <div className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-6 border border-gray-800 hover:border-green-400/50 transition-all">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-3 h-3 bg-green-400 rounded-full"></div>
+                  <h4 className="text-lg font-semibold text-green-400">Backend & APIs</h4>
+                </div>
+                <div className="text-sm text-gray-400 space-y-1">
+                  <div>• FastAPI & Flask</div>
+                  <div>• Node.js & Express</div>
+                  <div>• WebSocket & REST</div>
+                  <div>• Microservices</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* AI/ML & Data Technologies */}
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold text-white mb-8 text-center">AI/ML & Data Technologies</h3>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-6 border border-gray-800 hover:border-purple-400/50 transition-all">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-3 h-3 bg-purple-400 rounded-full"></div>
+                  <h4 className="text-lg font-semibold text-purple-400">Machine Learning</h4>
+                </div>
+                <div className="text-sm text-gray-400 space-y-1">
+                  <div>• TensorFlow & Keras</div>
+                  <div>• Neural Networks</div>
+                  <div>• Predictive Modeling</div>
+                  <div>• Risk Assessment</div>
+                  <div>• Bias Detection</div>
+                </div>
+              </div>
+
+              <div className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-6 border border-gray-800 hover:border-cyan-400/50 transition-all">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-3 h-3 bg-cyan-400 rounded-full"></div>
+                  <h4 className="text-lg font-semibold text-cyan-400">AI Integration</h4>
+                </div>
+                <div className="text-sm text-gray-400 space-y-1">
+                  <div>• OpenAI API</div>
+                  <div>• Anthropic Claude</div>
+                  <div>• LLM Orchestration</div>
+                  <div>• AI Ethics Monitoring</div>
+                  <div>• Healthcare AI</div>
+                </div>
+              </div>
+
+              <div className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-6 border border-gray-800 hover:border-orange-400/50 transition-all">
+                <div className="flex items-center gap-3 mb-4">
+                  <div className="w-3 h-3 bg-orange-400 rounded-full"></div>
+                  <h4 className="text-lg font-semibold text-orange-400">Financial Technology</h4>
+                </div>
+                <div className="text-sm text-gray-400 space-y-1">
+                  <div>• OANDA Trading API</div>
+                  <div>• Algorithmic Trading</div>
+                  <div>• Risk Management</div>
+                  <div>• Real-time Processing</div>
+                  <div>• Quantitative Analysis</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Databases & Infrastructure */}
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold text-white mb-8 text-center">Databases & Infrastructure</h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-6 border border-gray-800 hover:border-green-500/50 transition-all text-center">
+                <div className="text-3xl mb-3">🗄️</div>
+                <h4 className="text-lg font-semibold text-green-500 mb-2">Databases</h4>
+                <div className="text-sm text-gray-400 space-y-1">
+                  <div>PostgreSQL</div>
+                  <div>MongoDB</div>
+                  <div>Redis</div>
+                </div>
+              </div>
+
+              <div className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-6 border border-gray-800 hover:border-blue-500/50 transition-all text-center">
+                <div className="text-3xl mb-3">🐳</div>
+                <h4 className="text-lg font-semibold text-blue-500 mb-2">DevOps</h4>
+                <div className="text-sm text-gray-400 space-y-1">
+                  <div>Docker</div>
+                  <div>GitHub Actions</div>
+                  <div>CI/CD</div>
+                </div>
+              </div>
+
+              <div className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-6 border border-gray-800 hover:border-yellow-500/50 transition-all text-center">
+                <div className="text-3xl mb-3">📊</div>
+                <h4 className="text-lg font-semibold text-yellow-500 mb-2">Monitoring</h4>
+                <div className="text-sm text-gray-400 space-y-1">
+                  <div>Prometheus</div>
+                  <div>Grafana</div>
+                  <div>WebSocket</div>
+                </div>
+              </div>
+
+              <div className="bg-gray-900/50 backdrop-blur-sm rounded-xl p-6 border border-gray-800 hover:border-purple-500/50 transition-all text-center">
+                <div className="text-3xl mb-3">🔧</div>
+                <h4 className="text-lg font-semibold text-purple-500 mb-2">Tools</h4>
+                <div className="text-sm text-gray-400 space-y-1">
+                  <div>Vite</div>
+                  <div>Webpack</div>
+                  <div>npm/yarn</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Key Competencies */}
+          <div className="bg-gradient-to-r from-cyan-500/10 to-blue-500/10 rounded-xl border border-cyan-500/30 p-8">
+            <h3 className="text-2xl font-bold text-cyan-400 mb-6 text-center">Core Competencies</h3>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="text-center">
+                <div className="text-3xl mb-2">🚀</div>
+                <h4 className="font-semibold text-white mb-2">Full-Stack Development</h4>
+                <p className="text-gray-400 text-sm">End-to-end application development with modern frameworks</p>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl mb-2">🤖</div>
+                <h4 className="font-semibold text-white mb-2">AI/ML Integration</h4>
+                <p className="text-gray-400 text-sm">Production-ready AI systems with ethical oversight</p>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl mb-2">📈</div>
+                <h4 className="font-semibold text-white mb-2">Algorithmic Trading</h4>
+                <p className="text-gray-400 text-sm">Real-time trading systems with proven performance</p>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl mb-2">🏥</div>
+                <h4 className="font-semibold text-white mb-2">Healthcare Technology</h4>
+                <p className="text-gray-400 text-sm">HIPAA-compliant systems serving 200K+ patients</p>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl mb-2">⚡</div>
+                <h4 className="font-semibold text-white mb-2">Performance Optimization</h4>
+                <p className="text-gray-400 text-sm">Sub-millisecond latency and 99.9% uptime</p>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl mb-2">🔐</div>
+                <h4 className="font-semibold text-white mb-2">Security & Compliance</h4>
+                <p className="text-gray-400 text-sm">Enterprise-grade security and regulatory compliance</p>
               </div>
             </div>
           </div>

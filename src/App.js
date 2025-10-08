@@ -150,7 +150,7 @@ const Portfolio = () => {
               </a>
             ))}
             <a
-              href="/resume.html"
+              href="./resume.html"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-cyan-400 to-blue-500 text-white px-4 py-1 rounded-md hover:from-cyan-500 hover:to-blue-600 transition-all duration-300 font-medium"
@@ -179,7 +179,7 @@ const Portfolio = () => {
               </a>
             ))}
             <a
-              href="/resume.html"
+              href="./resume.html"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setMenuOpen(false)}
@@ -625,6 +625,23 @@ const Portfolio = () => {
                     <span className="text-gray-300">Technical Leadership</span>
                   </div>
                 </div>
+              </div>
+
+              <div className="p-4 bg-gray-800/50 rounded-lg border border-cyan-400/50">
+                <a
+                  href="./resume.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center space-x-3 text-cyan-400 hover:text-white transition-colors group"
+                >
+                  <div className="w-10 h-10 bg-cyan-400/20 rounded-lg flex items-center justify-center group-hover:bg-cyan-400/30 transition-colors">
+                    📄
+                  </div>
+                  <div className="text-center">
+                    <div className="font-semibold">Download Resume</div>
+                    <div className="text-sm text-gray-400">PDF Available</div>
+                  </div>
+                </a>
               </div>
             </div>
 

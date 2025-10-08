@@ -1,6 +1,7 @@
 <div align="center">
 
 # 💻 Joseph Bidias - Software Engineering Portfolio
+<img width="964" height="488" alt="image" src="https://github.com/user-attachments/assets/12fb6ea5-077e-433a-bf0e-d2afb772fd03" />
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=2563EB&center=true&vCenter=true&width=940&lines=Full-Stack+Software+Engineer;Quantitative+Developer;AI%2FML+Engineer;Cloud+Architecture+Specialist" alt="Typing SVG" />
 

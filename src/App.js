@@ -44,7 +44,7 @@ const Portfolio = () => {
       description: 'Advanced weather platform with dynamic theming, geolocation UI, and comprehensive meteorological data. Features real-time updates, 5-day forecasts, and air quality monitoring.',
       tech: ['React 19', 'Vite', 'OpenWeatherMap API', 'CSS3', 'JavaScript ES6'],
       metrics: ['Real-time Data', 'API Integration', 'Responsive Design', 'Modern UI'],
-      githubUrl: 'https://github.com/eaglepython/React_Nexus',
+      githubUrl: 'https://github.com/eaglepython/Nexus',
       gradient: 'from-blue-400 to-cyan-500',
       icon: '🌤️'
     },
@@ -55,30 +55,22 @@ const Portfolio = () => {
       description: 'Futuristic portfolio with matrix rain animation, glitch effects, and comprehensive keyboard navigation. Demonstrates advanced vanilla JavaScript techniques.',
       tech: ['JavaScript', 'HTML5', 'CSS3', 'DOM API', 'Canvas', 'Animations'],
       metrics: ['Matrix Effects', 'Keyboard Navigation', 'Responsive Design', 'Modern UI'],
-      githubUrl: 'https://github.com/eaglepython/Interactive-Portfolio',
+      liveUrl: 'https://eaglepython.github.io/JavaScript-DOM-Portfolio/',
+      githubUrl: 'https://github.com/eaglepython/JavaScript-DOM-Portfolio',
       gradient: 'from-purple-400 to-indigo-500',
       icon: '💻'
     },
     {
       id: 5,
       title: 'BookVault Library System',
-      subtitle: 'DOM Objects • API Integration',
+      subtitle: 'Inventory Management • DOM Integration',
       description: 'Sophisticated digital library with infinite carousel, external API integration, and advanced search. Features reading list management and responsive design.',
       tech: ['JavaScript', 'DOM API', 'External APIs', 'CSS3', 'Responsive Design'],
       metrics: ['Infinite Carousel', 'API Integration', 'Advanced Search', 'User Management'],
-      githubUrl: 'https://github.com/eaglepython/BookVault-Library',
+      liveUrl: 'https://eaglepython.github.io/DOM-Project/',
+      githubUrl: 'https://github.com/eaglepython/DOM-Project',
       gradient: 'from-green-400 to-emerald-500',
       icon: '📚'
-    },
-    {
-      id: 6,
-      title: 'Rx360 Healthcare Platform',
-      subtitle: 'HealthTech • Data Deck',
-      description: 'Complete medication management system with smart dispensing, health tracking, and comprehensive monitoring. Professional investment presentation.',
-      tech: ['React', 'Healthcare APIs', 'Data Visualization', 'TypeScript', 'Charts'],
-      metrics: ['Health Tracking', 'Smart Dispensing', 'Data Analytics', 'Professional UI'],
-      gradient: 'from-rose-400 to-pink-500',
-      icon: '🏥'
     }
   ];
 

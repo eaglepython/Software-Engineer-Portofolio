@@ -55,7 +55,7 @@ const Portfolio = () => {
       description: 'Futuristic portfolio with matrix rain animation, glitch effects, and comprehensive keyboard navigation. Demonstrates advanced vanilla JavaScript techniques.',
       tech: ['JavaScript', 'HTML5', 'CSS3', 'DOM API', 'Canvas', 'Animations'],
       metrics: ['Matrix Effects', 'Keyboard Navigation', 'Responsive Design', 'Modern UI'],
-      liveUrl: 'https://eaglepython.github.io/JavaScript-DOM-Portfolio/',
+      liveUrl: 'https://javascript-dom-portfolio.netlify.app/',
       githubUrl: 'https://github.com/eaglepython/JavaScript-DOM-Portfolio',
       gradient: 'from-purple-400 to-indigo-500',
       icon: '💻'

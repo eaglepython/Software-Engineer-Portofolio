@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joseph Bidias - Resume</title>
+    <style>
+        @page {
+            size: letter;
+            margin: 0.5in;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.5;
+            color: #333;
+            background: white;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #2563eb;
+        }
+        
+        .header h1 {
+            font-size: 32px;
+            color: #1e40af;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        
+        .header h2 {
+            font-size: 16px;
+            color: #0ea5e9;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            font-size: 11px;
+            color: #4b5563;
+        }
+        
+        .contact-info span {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        
+        .section {
+            margin-bottom: 18px;
+        }
+        
+        .section-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #1e40af;
+            text-transform: uppercase;
+            border-bottom: 2px solid #2563eb;
+            padding-bottom: 4px;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
+        }
+        
+        .job-title {
+            font-weight: 700;
+            font-size: 13px;
+            color: #1f2937;
+        }
+        
+        .company {
+            font-style: italic;
+            color: #0ea5e9;
+            font-size: 12px;
+        }
+        
+        .date {
+            color: #6b7280;
+            font-size: 11px;
+            float: right;
+        }
+        
+        .job-entry {
+            margin-bottom: 14px;
+            page-break-inside: avoid;
+        }
+        
+        .job-header {
+            margin-bottom: 6px;
+            overflow: hidden;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-top: 6px;
+        }
+        
+        li {
+            font-size: 11px;
+            margin-bottom: 4px;
+            color: #374151;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            font-size: 11px;
+        }
+        
+        .skill-category {
+            margin-bottom: 8px;
+        }
+        
+        .skill-title {
+            font-weight: 700;
+            color: #1e40af;
+            margin-bottom: 3px;
+        }
+        
+        .skill-items {
+            color: #4b5563;
+            line-height: 1.4;
+        }
+        
+        .summary {
+            font-size: 11px;
+            text-align: justify;
+            color: #374151;
+            margin-bottom: 12px;
+        }
+        
+        .education-entry {
+            margin-bottom: 10px;
+        }
+        
+        .degree {
+            font-weight: 700;
+            font-size: 12px;
+            color: #1f2937;
+        }
+        
+        .school {
+            color: #0ea5e9;
+            font-size: 11px;
+        }
+        
+        .cert-item {
+            font-size: 11px;
+            margin-bottom: 4px;
+            color: #374151;
+        }
+        
+        .project-title {
+            font-weight: 700;
+            font-size: 12px;
+            color: #1f2937;
+        }
+        
+        .project-link {
+            color: #0ea5e9;
+            font-size: 10px;
+            text-decoration: none;
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+            }
+            
+            .no-print {
+                display: none;
+            }
+        }
+        
+        .print-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #2563eb;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s;
+        }
+        
+        .print-button:hover {
+            background: #1e40af;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .back-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            background: #059669;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .back-button:hover {
+            background: #047857;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.html" class="back-button no-print">← Back to Portfolio</a>
+    <button class="print-button no-print" onclick="window.print()">🖨️ Print / Save as PDF</button>
+    
+    <div class="header">
+        <h1>JOSEPH BIDIAS</h1>
+        <h2>Quantitative Researcher | Software Engineer | AI/ML Specialist</h2>
+        <div class="contact-info">
+            <span>📍 Dallas, TX</span>
+            <span>📞 (214) 886-3785</span>
+            <span>✉️ bidias_consulting@outlook.com</span>
+            <span>✉️ rodabeck777@gmail.com</span>
+            <span>💻 github.com/eaglepython</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3 class="section-title">Professional Summary</h3>
+        <p class="summary">
+            Quantitative Researcher and Software Engineer with 7+ years of experience building production-grade ML systems, algorithmic trading platforms, and enterprise applications. Proven track record delivering AI governance frameworks serving 200K+ patients, achieving 28.4% annual trading returns, and deploying scalable systems processing 10M+ daily transactions. Expertise in Python, JavaScript, quantitative finance, cloud architecture, and full-stack development. Published thought leader in AI governance with research cited in Congressional oversight discussions. Strong foundation in financial engineering, machine learning, and software development best practices.
+        </p>
+    </div>
+
+    <div class="section">
+        <h3 class="section-title">Technical Skills</h3>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <div class="skill-title">Programming Languages</div>
+                <div class="skill-items">Python, JavaScript, TypeScript, SQL, Java, C++, R, MATLAB, HTML5, CSS3</div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-title">Web Development</div>
+                <div class="skill-items">React.js, Node.js, Express.js, MongoDB, REST APIs, Material-UI, Tailwind CSS, Redux, Vite</div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-title">AI/ML & Data Science</div>
+                <div class="skill-items">TensorFlow, PyTorch, scikit-learn, Pandas, NumPy, OpenAI, LangChain, Neural Networks, Time Series</div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-title">Quantitative Finance</div>
+                <div class="skill-items">Portfolio Optimization, Risk Modeling, Algorithmic Trading, Derivatives Pricing, VaR, Monte Carlo</div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-title">Cloud & DevOps</div>
+                <div class="skill-items">AWS, Azure, GCP, Docker, Kubernetes, CI/CD, GitHub Actions, Microservices, Jenkins</div>
+            </div>
+            <div class="skill-category">
+                <div class="skill-title">Databases</div>
+                <div class="skill-items">MongoDB, PostgreSQL, Redis, MySQL, MS SQL Server, SQLite</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3 class="section-title">Professional Experience</h3>
+        
+        <div class="job-entry">
+            <div class="job-header">
+                <span class="job-title">Senior Quantitative Finance Engineer & Budget Analyst</span>
+                <span class="date">2024 - Present</span>
+            </div>
+            <div class="company">Bidias Capital Consulting LLC | Remote</div>
+            <ul>
+                <li>Developed quantitative portfolio optimization using VQE/QAOA algorithms achieving 28.4% annual returns with 1.89 Sharpe ratio</li>
+                <li>Built high-frequency trading systems with 5μs inference time and 94.2% accuracy for real-time market analysis</li>
+                <li>Created interactive financial dashboards with 11+ production projects and multi-strategy backtesting framework</li>
+                <li>Applied financial engineering principles to optimize resource allocation and performance measurement across portfolios</li>
+                <li>Designed automated reporting systems providing real-time performance metrics and regulatory compliance monitoring</li>
+            </ul>
+        </div>
+
+        <div class="job-entry">
+            <div class="job-header">
+                <span class="job-title">Data Science Analyst - Tech Solutions</span>
+                <span class="date">June 2022 - February 2025</span>
+            </div>
+            <div class="company">Verizon | Dallas, TX</div>
+            <ul>
+                <li>Implemented real-time machine learning pipelines serving 10M+ customers daily, optimizing network utilization and reducing system latency by 25%</li>
+                <li>Developed and deployed scalable APIs in Python and AWS SageMaker for 15+ business applications with 99.9% uptime</li>
+                <li>Operated CI/CD deployment pipelines across multiple environments with zero-downtime deployments for mission-critical telecom infrastructure</li>
+                <li>Led cross-functional collaboration with 20+ engineering teams to transform technical requirements into business opportunities</li>
+            </ul>
+        </div>
+
+        <div class="job-entry">
+            <div class="job-header">
+                <span class="job-title">Healthcare Technology & AI Engineer</span>
+                <span class="date">February 2020 - June 2022</span>
+            </div>
+            <div class="company">Texas Health & Human Services | Dallas, TX</div>
+            <ul>
+                <li>Built predictive models analyzing 200K+ patient records daily with 85% readmission risk prediction accuracy, saving $2M+ annually</li>
+                <li>Developed and deployed real-time care gap alert systems across 300+ healthcare providers throughout Texas</li>
+                <li>Collaborated with healthcare teams and government stakeholders to align AI model outputs with federal quality measures and policy compliance</li>
+                <li>Created scalable data pipelines and dashboards providing actionable insights, resulting in 20% reduction in patient churn</li>
+            </ul>
+        </div>
+
+        <div class="job-entry">
+            <div class="job-header">
+                <span class="job-title">Data Analyst - Product Development</span>
+                <span class="date">September 2014 - December 2019</span>
+            </div>
+            <div class="company">Apple Inc. | Austin, TX</div>
+            <ul>
+                <li>Developed predictive models for global product demand forecasting, guiding strategic plans for products generating $50B+ in annual revenue</li>
+                <li>Built enterprise-scale ETL pipelines processing terabytes of customer data from 40+ countries, powering real-time analytics</li>
+                <li>Led technical initiatives from design to deployment with international teams, delivering innovative solutions to millions of customers</li>
+                <li>Designed advanced business intelligence infrastructure through dashboard development and data visualization platforms</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3 class="section-title">Key Technical Projects</h3>
+        
+        <div class="job-entry">
+            <div class="project-title">Multi-Agent Quantum Trading Platform | 2024 - Present</div>
+            <div class="project-link">🔗 bidiascapitalconsulting.netlify.app</div>
+            <ul>
+                <li>Built real-time automated algorithmic trading platform with advanced risk management and probabilistic neural networks</li>
+                <li>Implemented dynamic multi-asset rotation strategy (EUR/USD, GBP/USD, USD/JPY) with 15-minute rebalancing</li>
+                <li>Achieved live execution with OANDA API using WebSocket streaming and REST fallback with verified 28.4% annual returns</li>
+            </ul>
+        </div>
+
+        <div class="job-entry">
+            <div class="project-title">Healthcare LLM Governance Toolkit | July 2025 - Present</div>
+            <div class="project-link">🔗 eaglepython.github.io/healthcare-llm-governance-toolkit</div>
+            <ul>
+                <li>Built comprehensive risk assessment platform (React.js, Node.js, PostgreSQL) serving 200,000+ users with real-time monitoring</li>
+                <li>Developed automated bias detection algorithms achieving 95% accuracy across demographic groups</li>
+                <li>Implemented microservices architecture with CI/CD deployment, leading to 30% reduction in AI incidents</li>
+            </ul>
+        </div>
+
+        <div class="job-entry">
+            <div class="project-title">Multi-LLM Orchestration Platform | August 2025 - Present</div>
+            <div class="project-link">🔗 eaglepython.github.io/multi-llm-orchestration-platform</div>
+            <ul>
+                <li>Production system handling 10,000+ requests/day with intelligent load balancer (Node.js, Express.js, Redis)</li>
+                <li>Built automatic failover mechanism with <150ms switch time between providers, achieving 99.9% uptime</li>
+                <li>Developed cost optimization algorithms leading to 15% cost reduction through intelligent routing</li>
+            </ul>
+        </div>
+
+        <div class="job-entry">
+            <div class="project-title">Bidias E-Commerce FullStack Platform | NPower Capstone</div>
+            <div class="project-link">🔗 bidias-e-com-full-stack-app.netlify.app</div>
+            <ul>
+                <li>Enterprise e-commerce platform with AI recommendations, secure payments (Stripe), and microservices architecture (Docker)</li>
+                <li>Built with React 18, TypeScript, Node.js, Express, MongoDB, Redis, achieving 99.9% uptime and <200ms API response time</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3 class="section-title">Education</h3>
+        
+        <div class="education-entry">
+            <div class="degree">Master of Science in Financial Engineering</div>
+            <div class="school">WorldQuant University | Graduated March 2025</div>
+        </div>
+        
+        <div class="education-entry">
+            <div class="degree">Bachelor of Science in Biomedical Engineering</div>
+            <div class="school">University of Cameron | 2013</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3 class="section-title">Technical Training & Certifications</h3>
+        <div class="cert-item"><strong>NPower Full Stack Developer Bootcamp</strong> - 20-week intensive program (Python, React.js, Node.js, MongoDB, CI/CD) | 2025</div>
+        <div class="cert-item"><strong>ELVTR AI Engineer/Solution Architect</strong> - Deployed AI models and automated solutions for business challenges | 2024-2025</div>
+        <div class="cert-item"><strong>Multiverse Advanced Data Analytics Apprenticeship</strong> - Statistical analysis and data visualization | 2022-2023</div>
+        <div class="cert-item"><strong>Microsoft Certified: Data Scientist Associate</strong> (2020)</div>
+        <div class="cert-item"><strong>AI Solution Architect Certificate</strong> (2024) • <strong>Oracle Cloud Infrastructure Architect Associate</strong> (2022)</div>
+        <div class="cert-item"><strong>Microsoft Project Manager Certificate</strong> (2022)</div>
+    </div>
+
+    <div class="section">
+        <h3 class="section-title">Publications & Recognition</h3>
+        <div class="cert-item"><strong>AI 2030 Global Fellow</strong> - International AI governance and responsible AI leadership program</div>
+        <div class="cert-item"><strong>Robert Pittman Fellowship</strong> in AI for Health Systems (2018) - Innovation in healthcare technology</div>
+        <div class="cert-item"><strong>Published Research:</strong> "Responsible AI in Regulated Industries" | Medium | 15K+ views</div>
+        <div class="cert-item"><strong>Open Source Contributions:</strong> Hugging Face & LangChain ML Projects</div>
+        <div class="cert-item"><strong>Security Clearance:</strong> U.S. Citizen | Eligible for Public Trust Clearance</div>
+    </div>
+
+</body>
+</html>

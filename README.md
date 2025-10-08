@@ -4,7 +4,8 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=2563EB&center=true&vCenter=true&width=940&lines=Full-Stack+Software+Engineer;Quantitative+Developer;AI%2FML+Engineer;Cloud+Architecture+Specialist" alt="Typing SVG" />
 
-[![Portfolio](https://img.shields.io/badge/🌐_Live_Portfolio-Visit_Now-2563eb?style=for-the-badge)](https://portofolioreact-project.netlify.app/)
+[![Software Engineering Portfolio](https://img.shields.io/badge/🚀_Software_Portfolio-Visit_Now-00d4ff?style=for-the-badge&logoColor=white)](https://eaglepython.github.io/Software-Engineer-Portofolio/)
+[![React Portfolio](https://img.shields.io/badge/🌐_React_Portfolio-View-2563eb?style=for-the-badge)](https://portofolioreact-project.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/joseph-bidias-eaglepython)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eaglepython)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rodabeck777@gmail.com)
@@ -12,6 +13,8 @@
 **Full-Stack Developer | Quantitative Engineer | AI Solution Architect**
 
 *Building scalable, production-grade applications that solve real-world problems*
+
+🌐 **[View Interactive Software Engineering Portfolio →](https://eaglepython.github.io/Software-Engineer-Portofolio/)**
 
 </div>
 
@@ -122,7 +125,7 @@ Years Experience:      5+ Professional Years
 
 ## 🌟 Featured Projects
 
-### 🏆 Full-Stack Applications
+**🏆 Full-Stack Applications**
 
 #### 1. 🛒 **Bidias E-Commerce FullStack Platform**
 <div align="center">
@@ -424,12 +427,12 @@ Design:    Cyberpunk Theme • Dark Mode
 #### 10. 📈 **Multi-Agent Quantum Trading Platform**
 <div align="center">
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit-brightgreen?style=for-the-badge)](https://bidias-capital-consulting.netlify.app)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit-brightgreen?style=for-the-badge)](https://bidiascapitalconsulting.netlify.app/)
 [![GitHub](https://img.shields.io/badge/📦_Source_Code-View-181717?style=for-the-badge&logo=github)](https://github.com/eaglepython/Finance-Architect-Portofolio)
 
 </div>
 
-**Advanced Algorithmic Trading System**
+**Algorithmic Trading Systems • Machine Learning • Full-Stack Financial Applications**
 
 **⚙️ Tech Stack:**
 ```
@@ -437,6 +440,7 @@ Backend:   Python • TensorFlow • PyTorch
 Trading:   OANDA API • WebSocket Streams
 ML:        Gaussian Neural Networks • Reinforcement Learning
 Data:      Pandas • NumPy • Real-time Processing
+Systems:   Algorithmic Trading • Machine Learning
 ```
 
 **✨ Key Features:**
@@ -445,6 +449,7 @@ Data:      Pandas • NumPy • Real-time Processing
 - ⚡ **5μs Latency** - High-frequency optimization
 - 📈 **Risk Management** - Automated controls
 - 📊 **Performance Analytics** - Sharpe ratio tracking
+- 💹 **Full-Stack Financial Apps** - Complete trading systems
 
 **📊 Verified Performance:**
 - 💰 **28.4% Annual Returns** - Documented results
@@ -632,7 +637,8 @@ API Development           ██████████████████
 
 ### **Let's Build Something Amazing Together**
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Now-2563eb?style=for-the-badge&logoColor=white)](https://portofolioreact-project.netlify.app/)
+[![Software Engineering Portfolio](https://img.shields.io/badge/🚀_Software_Portfolio-Visit_Now-00d4ff?style=for-the-badge&logoColor=white)](https://eaglepython.github.io/Software-Engineer-Portofolio/)
+[![React Portfolio](https://img.shields.io/badge/🌐_React_Portfolio-View-2563eb?style=for-the-badge&logoColor=white)](https://portofolioreact-project.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/joseph-bidias-eaglepython)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eaglepython)
 [![Medium](https://img.shields.io/badge/Medium-Read_Articles-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@rodabeck777)
@@ -646,8 +652,10 @@ API Development           ██████████████████
 
 ### **Professional Links**
 
+🔗 **Software Engineering Portfolio:** [eaglepython.github.io/Software-Engineer-Portofolio](https://eaglepython.github.io/Software-Engineer-Portofolio/)  
+🔗 **React Portfolio:** [portofolioreact-project.netlify.app](https://portofolioreact-project.netlify.app/)  
 🔗 **E-Commerce Platform:** [bidias-e-com-full-stack-app.netlify.app](https://bidias-e-com-full-stack-app.netlify.app)  
-🔗 **Trading Platform:** [bidias-capital-consulting.netlify.app](https://bidias-capital-consulting.netlify.app)  
+🔗 **Trading Platform:** [bidiascapitalconsulting.netlify.app](https://bidiascapitalconsulting.netlify.app/)  
 🔗 **Weather App:** [React Nexus GitHub](https://github.com/eaglepython/React_Nexus)  
 🔗 **AI Governance:** [Multi-LLM Platform](https://eaglepython.github.io/multi-llm-orchestration-platform/)
 
@@ -794,7 +802,8 @@ performance
 <td align="center" width="33%">
 <img src="https://via.placeholder.com/300x200/fbbf24/ffffff?text=Trading+Platform" alt="Trading" style="border-radius: 10px;"/>
 <br><b>Quantum Trading</b>
-<br>Python + TensorFlow
+<br>Algorithmic Trading Systems
+<br>Machine Learning • Financial Apps
 </td>
 <td align="center" width="33%">
 <img src="https://via.placeholder.com/300x200/ec4899/ffffff?text=Multi-LLM+Platform" alt="LLM" style="border-radius: 10px;"/>

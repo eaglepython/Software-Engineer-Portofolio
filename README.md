@@ -371,33 +371,7 @@ Storage:   localStorage • Session Management
 
 ---
 
-#### 8. 📦 **Inventory Management System**
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/📦_Source_Code-View-181717?style=for-the-badge&logo=github)](https://github.com/eaglepython/inventory-management-app)
-
-</div>
-
-**Smart Product Tracking Platform**
-
-**⚙️ Tech Stack:**
-```
-Frontend:  React • JavaScript ES6+ • CSS3
-Features:  Email Notifications • Weather API
-Storage:   localStorage • Session Management
-```
-
-**✨ Key Features:**
-- 📦 **Product CRUD Operations** - Full management
-- 📧 **Email Alerts** - Zero-stock notifications
-- 🔍 **Advanced Filtering** - Category, price, availability
-- 🌤️ **Weather Integration** - External API demo
-- 📊 **Analytics Dashboard** - Product insights
-- 📱 **Mobile Responsive** - Touch-friendly
-
----
-
-#### 9. 🎭 **Cyberpunk Interactive Portfolio**
+#### 8. 🎭 **Cyberpunk Interactive Portfolio**
 <div align="center">
 
 [![Live App](https://img.shields.io/badge/🌐_Live_App-Launch-cyan?style=for-the-badge)](https://javascript-dom-portfolio.netlify.app/)

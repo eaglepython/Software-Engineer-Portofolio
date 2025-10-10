@@ -141,7 +141,7 @@ const Portfolio = () => {
           </div>
           
           <div className="hidden md:flex space-x-8">
-            {['Home', 'About', 'Projects', 'Skills', 'Contact'].map((item) => (
+            {['Home', 'About', 'Projects', 'Skills', 'Quant', 'Contact'].map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
@@ -169,7 +169,7 @@ const Portfolio = () => {
       {menuOpen && (
         <div className="md:hidden bg-gray-900/98 backdrop-blur-lg border-t border-cyan-400/20">
           <div className="px-6 py-4 space-y-3">
-            {['Home', 'About', 'Projects', 'Skills', 'Contact'].map((item) => (
+            {['Home', 'About', 'Projects', 'Skills', 'Quant', 'Contact'].map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
@@ -545,6 +545,158 @@ const Portfolio = () => {
                 <h4 className="text-white font-semibold mb-2">CI/CD</h4>
                 <p className="text-gray-400 text-sm">GitHub Actions, Jenkins</p>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Quantitative Finance & Advanced AI/ML Section */}
+      <section id="quant" className="py-20 bg-gradient-to-b from-black to-gray-900">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-white mb-4">
+              📈 <span className="text-cyan-400">Elite Quantitative Research</span> & Advanced AI/ML
+            </h2>
+            <p className="text-gray-400 text-lg max-w-3xl mx-auto">
+              Beyond software engineering, I maintain an advanced quantitative finance and AI/ML portfolio featuring live trading systems, healthcare AI governance, and cutting-edge research.
+            </p>
+          </div>
+
+          <div className="grid lg:grid-cols-2 gap-12 mb-16">
+            {/* Live Trading Performance */}
+            <div className="bg-gradient-to-br from-green-900/20 to-emerald-900/20 p-8 rounded-lg border border-green-400/30">
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 bg-green-400/20 rounded-lg flex items-center justify-center mr-4">
+                  📊
+                </div>
+                <h3 className="text-2xl font-bold text-white">Live Trading Systems</h3>
+              </div>
+              <div className="space-y-4">
+                <div className="flex justify-between items-center p-3 bg-black/30 rounded">
+                  <span className="text-gray-300">Multi-Agent Quantum Trading</span>
+                  <span className="text-green-400 font-bold">28.4% Returns</span>
+                </div>
+                <div className="flex justify-between items-center p-3 bg-black/30 rounded">
+                  <span className="text-gray-300">LSTM HFT Predictor</span>
+                  <span className="text-green-400 font-bold">23.7% Returns</span>
+                </div>
+                <div className="flex justify-between items-center p-3 bg-black/30 rounded">
+                  <span className="text-gray-300">Ensemble Alpha Generation</span>
+                  <span className="text-green-400 font-bold">18.2% Returns</span>
+                </div>
+                <div className="flex justify-between items-center p-3 bg-black/30 rounded">
+                  <span className="text-gray-300">Multi-Armed Bandit</span>
+                  <span className="text-green-400 font-bold">15.3% Returns</span>
+                </div>
+              </div>
+              <div className="mt-6 p-4 bg-green-400/10 rounded border border-green-400/30">
+                <div className="text-center">
+                  <div className="text-2xl font-bold text-green-400">$12.3M</div>
+                  <div className="text-sm text-gray-300">Total Trading Profits (366 Days Verified)</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Healthcare AI Impact */}
+            <div className="bg-gradient-to-br from-blue-900/20 to-cyan-900/20 p-8 rounded-lg border border-cyan-400/30">
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 bg-cyan-400/20 rounded-lg flex items-center justify-center mr-4">
+                  🏥
+                </div>
+                <h3 className="text-2xl font-bold text-white">Healthcare AI Systems</h3>
+              </div>
+              <div className="space-y-4">
+                <div className="p-4 bg-black/30 rounded">
+                  <div className="text-cyan-400 font-semibold">LLM Governance Toolkit</div>
+                  <div className="text-gray-300 text-sm">200,000+ users served</div>
+                  <div className="text-gray-300 text-sm">95% bias detection accuracy</div>
+                </div>
+                <div className="p-4 bg-black/30 rounded">
+                  <div className="text-cyan-400 font-semibold">Multi-LLM Orchestration</div>
+                  <div className="text-gray-300 text-sm">10,000+ requests/day</div>
+                  <div className="text-gray-300 text-sm">99.9% uptime</div>
+                </div>
+                <div className="p-4 bg-black/30 rounded">
+                  <div className="text-cyan-400 font-semibold">Clinical Prediction Models</div>
+                  <div className="text-gray-300 text-sm">$2.5M annual savings</div>
+                  <div className="text-gray-300 text-sm">25% reduction in cardiac events</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Technology Stack */}
+          <div className="bg-gray-800/30 p-8 rounded-lg border border-gray-700 mb-12">
+            <h3 className="text-2xl font-bold text-white mb-6 text-center">Advanced Technology Stack</h3>
+            <div className="grid md:grid-cols-4 gap-6">
+              <div className="text-center">
+                <div className="text-3xl mb-3">🔬</div>
+                <h4 className="text-white font-semibold mb-2">Quant Finance</h4>
+                <p className="text-gray-400 text-sm">VQE/QAOA Quantum, Portfolio Optimization, Risk Management</p>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl mb-3">🧠</div>
+                <h4 className="text-white font-semibold mb-2">Deep Learning</h4>
+                <p className="text-gray-400 text-sm">LSTM, Transformers, Multi-head Attention, CNNs</p>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl mb-3">⚡</div>
+                <h4 className="text-white font-semibold mb-2">Trading Tech</h4>
+                <p className="text-gray-400 text-sm">OANDA API, WebSocket, HFT Systems, 5μs Latency</p>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl mb-3">🏥</div>
+                <h4 className="text-white font-semibold mb-2">Healthcare AI</h4>
+                <p className="text-gray-400 text-sm">Clinical ML, Predictive Analytics, Bias Detection</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Education & Credentials */}
+          <div className="bg-gradient-to-r from-purple-900/20 to-indigo-900/20 p-8 rounded-lg border border-purple-400/30 mb-12">
+            <h3 className="text-2xl font-bold text-white mb-6 text-center">Elite Credentials & Recognition</h3>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="text-center">
+                <div className="text-2xl mb-2">🎓</div>
+                <div className="text-purple-400 font-semibold">Master's in Financial Engineering</div>
+                <div className="text-gray-300 text-sm">WorldQuant University (2025)</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl mb-2">🏆</div>
+                <div className="text-purple-400 font-semibold">AI 2030 Global Fellow</div>
+                <div className="text-gray-300 text-sm">International AI Governance</div>
+              </div>
+              <div className="text-center">
+                <div className="text-2xl mb-2">📊</div>
+                <div className="text-purple-400 font-semibold">Published Research</div>
+                <div className="text-gray-300 text-sm">15K+ views in AI governance</div>
+              </div>
+            </div>
+          </div>
+
+          {/* Call to Action */}
+          <div className="text-center">
+            <h3 className="text-2xl font-bold text-white mb-4">Explore Elite Quantitative Portfolio</h3>
+            <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
+              This software engineering portfolio showcases web applications and enterprise systems. For advanced quantitative research, financial modeling, and production trading systems, visit my specialized portfolio.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gradient-to-r from-cyan-400 to-blue-500 text-white px-8 py-4 rounded-lg font-semibold hover:from-cyan-500 hover:to-blue-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-cyan-400/25"
+              >
+                🚀 View Elite Quant Portfolio
+              </a>
+              <a
+                href="https://bidiascapitalconsulting.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="border border-cyan-400 text-cyan-400 px-8 py-4 rounded-lg font-semibold hover:bg-cyan-400 hover:text-black transform hover:scale-105 transition-all duration-300"
+              >
+                📊 Live Trading Demo
+              </a>
             </div>
           </div>
         </div>

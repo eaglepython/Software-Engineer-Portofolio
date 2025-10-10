@@ -5,12 +5,95 @@ const Portfolio = () => {
   const [scrollY, setScrollY] = useState(0);
   const [menuOpen, setMenuOpen] = useState(false);
   const [hoveredProject, setHoveredProject] = useState(null);
+  const [loading, setLoading] = useState(true);
   
   useEffect(() => {
     const handleScroll = () => setScrollY(window.scrollY);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  useEffect(() => {
+    // Simulate loading time
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3000); // 3 seconds loading time
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  // Loading Screen Component
+  const LoadingScreen = () => (
+    <div className="fixed inset-0 bg-gradient-to-br from-gray-900 via-black to-gray-800 flex items-center justify-center z-50">
+      <div className="text-center">
+        {/* Animated Logo */}
+        <div className="mb-8 relative">
+          <div className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 bg-clip-text text-transparent animate-pulse">
+            the 7th sense
+          </div>
+          
+          {/* Animated underline */}
+          <div className="mt-4 h-1 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full mx-auto animate-pulse" 
+               style={{ width: '60%' }}></div>
+        </div>
+
+        {/* Loading animation */}
+        <div className="flex justify-center space-x-2 mb-6">
+          <div className="w-3 h-3 bg-cyan-400 rounded-full animate-bounce" style={{ animationDelay: '0ms' }}></div>
+          <div className="w-3 h-3 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: '150ms' }}></div>
+          <div className="w-3 h-3 bg-purple-600 rounded-full animate-bounce" style={{ animationDelay: '300ms' }}></div>
+        </div>
+
+        {/* Loading text */}
+        <div className="text-gray-400 text-lg font-light tracking-wider animate-pulse">
+          Initializing Portfolio...
+        </div>
+
+        {/* Progress bar */}
+        <div className="mt-6 w-64 h-1 bg-gray-700 rounded-full mx-auto overflow-hidden">
+          <div className="h-full bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full animate-pulse loading-bar"></div>
+        </div>
+      </div>
+
+      {/* Floating particles */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        {[...Array(20)].map((_, i) => (
+          <div
+            key={i}
+            className="absolute w-2 h-2 bg-cyan-400 rounded-full opacity-20 animate-float"
+            style={{
+              left: `${Math.random() * 100}%`,
+              top: `${Math.random() * 100}%`,
+              animationDelay: `${Math.random() * 3}s`,
+              animationDuration: `${3 + Math.random() * 2}s`
+            }}
+          ></div>
+        ))}
+      </div>
+
+      <style jsx>{`
+        @keyframes float {
+          0%, 100% { transform: translateY(0px) rotate(0deg); }
+          50% { transform: translateY(-20px) rotate(180deg); }
+        }
+        .animate-float {
+          animation: float 4s ease-in-out infinite;
+        }
+        .loading-bar {
+          animation: loading 3s ease-in-out forwards;
+        }
+        @keyframes loading {
+          0% { width: 0%; }
+          100% { width: 100%; }
+        }
+      `}</style>
+    </div>
+  );
+
+  // Show loading screen if still loading
+  if (loading) {
+    return <LoadingScreen />;
+  }
 
   const projects = [
     {
@@ -593,33 +676,6 @@ const Portfolio = () => {
                 <div className="text-center">
                   <div className="text-2xl font-bold text-green-400">$12.3M</div>
                   <div className="text-sm text-gray-300">Total Trading Profits (366 Days Verified)</div>
-                </div>
-              </div>
-            </div>
-
-            {/* Healthcare AI Impact */}
-            <div className="bg-gradient-to-br from-blue-900/20 to-cyan-900/20 p-8 rounded-lg border border-cyan-400/30">
-              <div className="flex items-center mb-6">
-                <div className="w-12 h-12 bg-cyan-400/20 rounded-lg flex items-center justify-center mr-4">
-                  🏥
-                </div>
-                <h3 className="text-2xl font-bold text-white">Healthcare AI Systems</h3>
-              </div>
-              <div className="space-y-4">
-                <div className="p-4 bg-black/30 rounded">
-                  <div className="text-cyan-400 font-semibold">LLM Governance Toolkit</div>
-                  <div className="text-gray-300 text-sm">200,000+ users served</div>
-                  <div className="text-gray-300 text-sm">95% bias detection accuracy</div>
-                </div>
-                <div className="p-4 bg-black/30 rounded">
-                  <div className="text-cyan-400 font-semibold">Multi-LLM Orchestration</div>
-                  <div className="text-gray-300 text-sm">10,000+ requests/day</div>
-                  <div className="text-gray-300 text-sm">99.9% uptime</div>
-                </div>
-                <div className="p-4 bg-black/30 rounded">
-                  <div className="text-cyan-400 font-semibold">Clinical Prediction Models</div>
-                  <div className="text-gray-300 text-sm">$2.5M annual savings</div>
-                  <div className="text-gray-300 text-sm">25% reduction in cardiac events</div>
                 </div>
               </div>
             </div>

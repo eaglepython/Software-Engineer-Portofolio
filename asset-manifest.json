@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Software-Engineer-Portofolio/static/css/main.5385bfc0.css",
-    "main.js": "/Software-Engineer-Portofolio/static/js/main.862f8242.js",
+    "main.css": "/Software-Engineer-Portofolio/static/css/main.7b59f868.css",
+    "main.js": "/Software-Engineer-Portofolio/static/js/main.e1b1cf5e.js",
     "static/js/453.c957683f.chunk.js": "/Software-Engineer-Portofolio/static/js/453.c957683f.chunk.js",
     "index.html": "/Software-Engineer-Portofolio/index.html",
-    "main.5385bfc0.css.map": "/Software-Engineer-Portofolio/static/css/main.5385bfc0.css.map",
-    "main.862f8242.js.map": "/Software-Engineer-Portofolio/static/js/main.862f8242.js.map",
+    "main.7b59f868.css.map": "/Software-Engineer-Portofolio/static/css/main.7b59f868.css.map",
+    "main.e1b1cf5e.js.map": "/Software-Engineer-Portofolio/static/js/main.e1b1cf5e.js.map",
     "453.c957683f.chunk.js.map": "/Software-Engineer-Portofolio/static/js/453.c957683f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5385bfc0.css",
-    "static/js/main.862f8242.js"
+    "static/css/main.7b59f868.css",
+    "static/js/main.e1b1cf5e.js"
   ]
 }

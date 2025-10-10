@@ -342,7 +342,55 @@ Storage:   PostgreSQL • Time-series Data
 
 ---
 
-### 💻 Frontend Development Projects
+### � **Quantitative Finance & Advanced AI/ML**
+
+<div align="center">
+
+[![Quant Portfolio](https://img.shields.io/badge/🚀_Elite_Quant_Portfolio-View_Now-gold?style=for-the-badge&logoColor=white)](https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO)
+[![Live Trading](https://img.shields.io/badge/📊_Live_Trading-28.4%25_Returns-success?style=for-the-badge)](https://bidiascapitalconsulting.netlify.app)
+
+</div>
+
+**🏆 Elite Quantitative Research & Financial Engineering Portfolio**
+
+Beyond software engineering, I maintain an advanced **Quantitative Finance & AI/ML Portfolio** featuring:
+
+#### **🎯 Live Production Trading Systems**
+- **Multi-Agent Quantum Trading Platform**: **28.4% annual returns** with 1.89 Sharpe ratio
+- **LSTM HFT Predictor**: **23.7% returns**, **5μs latency**, **92% accuracy**
+- **Ensemble Alpha Generation**: **18.2% returns** with 2.1 Sharpe ratio
+- **Multi-Armed Bandit Portfolio**: **15.3% returns**, **89% win rate**
+
+#### **⚙️ Advanced Technologies**
+```
+Quant Finance:   VQE/QAOA Quantum Algorithms • Portfolio Optimization
+Deep Learning:   LSTM • Transformers • Multi-head Attention • CNNs
+Trading Tech:    OANDA API • Real-time WebSocket • HFT Systems
+Risk Management: VaR • Monte Carlo • Stress Testing • Sharpe Optimization
+Healthcare AI:   Clinical ML • Predictive Analytics • Bias Detection
+```
+
+#### **📊 Portfolio Highlights**
+- **🎓 Master's in Financial Engineering** - WorldQuant University (2025)
+- **💰 $12.3M Trading Profits** - 366 days verified live trading
+- **🏥 200,000+ Healthcare Users** - AI governance systems
+- **🔬 15+ Research Projects** - Deep learning in finance, healthcare analytics
+- **📈 85%+ Model Accuracy** - Across financial time series prediction
+
+#### **🏆 Business Impact**
+- **Healthcare**: $2.5M annual savings + 25% reduction in cardiac events
+- **Finance**: Live trading with verified 28.4% annual performance
+- **Technology**: 99.9% uptime systems processing 10,000+ requests/day
+- **Research**: Published work in AI governance with 15K+ views
+
+#### **🔗 Access Elite Portfolio**
+**[🚀 View Complete Quantitative AI/ML Portfolio →](https://github.com/eaglepython/QUANT_AI_ML_PORTOFOLIO)**
+
+*This software engineering portfolio focuses on web applications and enterprise systems. The quantitative portfolio demonstrates advanced financial modeling, healthcare AI, and production trading systems.*
+
+---
+
+### �💻 Frontend Development Projects
 
 #### 7. 📚 **BookVault - Digital Library Management**
 <div align="center">

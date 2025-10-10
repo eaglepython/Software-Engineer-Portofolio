@@ -181,8 +181,8 @@ Auth:      JWT • OAuth 2.0 (Google, GitHub)
 #### 2. 🌤️ **Nexus Weather - Advanced Weather Intelligence Platform**
 <div align="center">
 
-[![Live App](https://img.shields.io/badge/🌐_Live_App-Launch-yellow?style=for-the-badge)](https://github.com/eaglepython/React_Nexus)
-[![GitHub](https://img.shields.io/badge/📦_Source_Code-View-181717?style=for-the-badge&logo=github)](https://github.com/eaglepython/React_Nexus)
+[![Live App](https://img.shields.io/badge/🌐_Live_App-Launch-yellow?style=for-the-badge)](https://eaglepython.github.io/Nexus/)
+[![GitHub](https://img.shields.io/badge/📦_Source_Code-View-181717?style=for-the-badge&logo=github)](https://eaglepython.github.io/Nexus/)
 
 </div>
 

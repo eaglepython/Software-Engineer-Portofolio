@@ -44,6 +44,7 @@ const Portfolio = () => {
       description: 'Advanced weather platform with dynamic theming, geolocation UI, and comprehensive meteorological data. Features real-time updates, 5-day forecasts, and air quality monitoring.',
       tech: ['React 19', 'Vite', 'OpenWeatherMap API', 'CSS3', 'JavaScript ES6'],
       metrics: ['Real-time Data', 'API Integration', 'Responsive Design', 'Modern UI'],
+      liveUrl: 'https://eaglepython.github.io/Nexus/',
       githubUrl: 'https://github.com/eaglepython/Nexus',
       gradient: 'from-blue-400 to-cyan-500',
       icon: '🌤️'

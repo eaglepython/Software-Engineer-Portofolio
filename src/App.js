@@ -100,9 +100,9 @@ const Portfolio = () => {
       id: 1,
       title: 'Multi-Agent Quantum Trading System',
       subtitle: 'Algorithmic Trading • FinTech',
-      description: 'Real-time algorithmic trading platform with advanced risk management, probabilistic neural networks, and live execution through OANDA API. Achieved 28.4% annual return with 1.89 Sharpe ratio.',
+      description: 'A research project in algorithmic trading with risk management and neural-network signals, backtested on historical data through the OANDA API. Research and educational, not live trading.',
       tech: ['Python', 'TensorFlow', 'OANDA API', 'Neural Networks', 'Real-time Processing'],
-      metrics: ['28.4% Annual Return', '94.2% Prediction Accuracy', '5μs Execution Latency', '1.89 Sharpe Ratio'],
+      metrics: ['Backtested', 'Risk management', 'Neural-network signals', 'OANDA API'],
       liveUrl: 'https://bidiascapitalconsulting.netlify.app/',
       githubUrl: 'https://github.com/eaglepython/Finance-Architect-Portofolio',
       gradient: 'from-orange-400 to-yellow-500',
@@ -112,9 +112,9 @@ const Portfolio = () => {
       id: 2,
       title: 'Bidias E-Commerce Platform',
       subtitle: 'Full-Stack • Enterprise',
-      description: 'Complete MERN stack e-commerce platform with AI-powered recommendations, secure payment processing, and microservices architecture. NPower capstone project with 150+ lines of code.',
+      description: 'A MERN-stack e-commerce platform with product catalog, user accounts, Stripe payment processing, and an admin area.',
       tech: ['React', 'Node.js', 'MongoDB', 'TypeScript', 'Docker', 'Stripe'],
-      metrics: ['99%+ Test Coverage', 'Enterprise Grade', 'AI Integration', 'Real-time Processing'],
+      metrics: ['MERN stack', 'Stripe payments', 'Admin dashboard', 'Authentication'],
       liveUrl: 'https://bidias-e-com-full-stack-app.netlify.app',
       githubUrl: 'https://github.com/eaglepython/Bidias-E-Com-FullStack-App',
       gradient: 'from-red-400 to-pink-500',
@@ -160,9 +160,9 @@ const Portfolio = () => {
       id: 6,
       title: 'Healthcare LLM Governance Toolkit',
       subtitle: 'AI Risk Assessment • Healthcare',
-      description: 'AI risk assessment system for healthcare environments with automated bias detection, HIPAA compliance monitoring, and multi-vendor comparison. Serves 200,000+ patients with 95% bias detection accuracy.',
+      description: 'A front-end prototype for risk assessment and oversight of healthcare AI, with a weighted risk questionnaire and a mock oversight dashboard. Runs on sample data; not deployed in a care setting.',
       tech: ['Python', 'FastAPI', 'TensorFlow', 'React', 'TypeScript', 'PostgreSQL'],
-      metrics: ['200K+ Patients', '95% Bias Detection', 'HIPAA Compliant', 'Multi-vendor Support'],
+      metrics: ['Prototype', 'Sample data', 'Risk scoring', 'Oversight dashboard'],
       liveUrl: 'https://eaglepython.github.io/healthcare-llm-governance-toolkit/',
       githubUrl: 'https://github.com/eaglepython/healthcare-llm-governance-toolkit',
       gradient: 'from-emerald-400 to-teal-500',
@@ -172,9 +172,9 @@ const Portfolio = () => {
       id: 7,
       title: 'Multi-LLM Orchestration Platform',
       subtitle: 'AI Orchestration • Production Scale',
-      description: 'Production system handling 10,000+ requests/day with intelligent load balancer across OpenAI, Anthropic, and Cohere. Features automatic failover, cost optimization, and real-time monitoring.',
+      description: 'A prototype for routing requests across model providers (OpenAI, Anthropic, and others) with failover and cost awareness. The dashboard runs on sample data and the backend is a design draft.',
       tech: ['Node.js', 'Express.js', 'Redis', 'OpenAI API', 'Anthropic', 'React'],
-      metrics: ['10K+ Requests/Day', '99.9% Uptime', '<150ms Failover', '15% Cost Savings'],
+      metrics: ['Prototype', 'Provider routing', 'Failover design', 'Sample data'],
       liveUrl: 'https://eaglepython.github.io/multi-llm-orchestration-platform/',
       githubUrl: 'https://github.com/eaglepython/multi-llm-orchestration-platform',
       gradient: 'from-violet-400 to-purple-500',
@@ -184,11 +184,11 @@ const Portfolio = () => {
       id: 8,
       title: 'AI Ethics Dashboard',
       subtitle: 'Ethics Monitoring • Compliance',
-      description: 'Real-time AI ethics monitoring platform with automated bias detection, fairness metrics tracking, and compliance reporting. Integrates with major ML platforms for comprehensive oversight.',
+      description: 'A prototype for monitoring bias and fairness in AI models, with fairness metrics and compliance views. Runs on simulated data.',
       tech: ['Python', 'Streamlit', 'scikit-learn', 'Plotly', 'MLflow', 'Docker'],
-      metrics: ['Real-time Monitoring', 'Multi-platform Support', 'Automated Reporting', 'Bias Detection'],
+      metrics: ['Prototype', 'Fairness metrics', 'Simulated data', 'Compliance views'],
       liveUrl: 'https://eaglepython.github.io/ai-ethics-monitoring-dashboard/',
-      githubUrl: 'https://github.com/eaglepython/ai-ethics-dashboard',
+      githubUrl: 'https://github.com/eaglepython/ai-ethics-monitoring-dashboard',
       gradient: 'from-pink-400 to-rose-500',
       icon: '⚖️'
     }
@@ -346,10 +346,10 @@ const Portfolio = () => {
               <div className="bg-gray-800/30 p-8 rounded-lg border border-gray-700">
                 <h3 className="text-2xl font-bold text-white mb-4">Professional Focus</h3>
                 <p className="text-gray-300 leading-relaxed mb-6">
-                  With over 7 years of experience in software engineering and quantitative research, I specialize in 
+                  With over 10 years of experience in software engineering and quantitative research, I specialize in 
                   building production-grade ML systems, algorithmic trading platforms, and enterprise applications. 
-                  My work spans from healthcare AI governance serving 200K+ patients to achieving 28.4% annual 
-                  trading returns through advanced quantitative strategies.
+                  My work spans healthcare AI governance in the public sector, production ML at scale, and
+                  quantitative research, always with an emphasis on honest, reproducible results.
                 </p>
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
@@ -638,10 +638,10 @@ const Portfolio = () => {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-4">
-              📈 <span className="text-cyan-400">Elite Quantitative Research</span> & Advanced AI/ML
+              📈 <span className="text-cyan-400">Quantitative Research</span> and Applied AI/ML
             </h2>
             <p className="text-gray-400 text-lg max-w-3xl mx-auto">
-              Beyond software engineering, I maintain an advanced quantitative finance and AI/ML portfolio featuring live trading systems, healthcare AI governance, and cutting-edge research.
+              Beyond web engineering, I keep a quantitative finance and AI/ML portfolio spanning econometrics, risk analytics, healthcare AI governance, and applied ML research.
             </p>
           </div>
 
@@ -652,30 +652,30 @@ const Portfolio = () => {
                 <div className="w-12 h-12 bg-green-400/20 rounded-lg flex items-center justify-center mr-4">
                   📊
                 </div>
-                <h3 className="text-2xl font-bold text-white">Live Trading Systems</h3>
+                <h3 className="text-2xl font-bold text-white">Selected Highlights</h3>
               </div>
               <div className="space-y-4">
                 <div className="flex justify-between items-center p-3 bg-black/30 rounded">
-                  <span className="text-gray-300">Multi-Agent Quantum Trading</span>
-                  <span className="text-green-400 font-bold">28.4% Returns</span>
+                  <span className="text-gray-300">QuantRisk risk platform</span>
+                  <span className="text-green-400 font-bold">37 tests</span>
                 </div>
                 <div className="flex justify-between items-center p-3 bg-black/30 rounded">
-                  <span className="text-gray-300">LSTM HFT Predictor</span>
-                  <span className="text-green-400 font-bold">23.7% Returns</span>
+                  <span className="text-gray-300">Production ML at Verizon</span>
+                  <span className="text-green-400 font-bold">10M+ users</span>
                 </div>
                 <div className="flex justify-between items-center p-3 bg-black/30 rounded">
-                  <span className="text-gray-300">Ensemble Alpha Generation</span>
-                  <span className="text-green-400 font-bold">18.2% Returns</span>
+                  <span className="text-gray-300">Texas HHS decision support</span>
+                  <span className="text-green-400 font-bold">47 programs</span>
                 </div>
                 <div className="flex justify-between items-center p-3 bg-black/30 rounded">
-                  <span className="text-gray-300">Multi-Armed Bandit</span>
-                  <span className="text-green-400 font-bold">15.3% Returns</span>
+                  <span className="text-gray-300">Regime-aware pairs trader</span>
+                  <span className="text-green-400 font-bold">MScFE capstone</span>
                 </div>
               </div>
               <div className="mt-6 p-4 bg-green-400/10 rounded border border-green-400/30">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-green-400">$12.3M</div>
-                  <div className="text-sm text-gray-300">Total Trading Profits (366 Days Verified)</div>
+                  <div className="text-2xl font-bold text-green-400">10+ yrs</div>
+                  <div className="text-sm text-gray-300">AI/ML and quant engineering across Apple, Verizon, Texas HHS, UF</div>
                 </div>
               </div>
             </div>
@@ -698,7 +698,7 @@ const Portfolio = () => {
               <div className="text-center">
                 <div className="text-3xl mb-3">⚡</div>
                 <h4 className="text-white font-semibold mb-2">Trading Tech</h4>
-                <p className="text-gray-400 text-sm">OANDA API, WebSocket, HFT Systems, 5μs Latency</p>
+                <p className="text-gray-400 text-sm">OANDA API, WebSocket, low-latency design</p>
               </div>
               <div className="text-center">
                 <div className="text-3xl mb-3">🏥</div>
@@ -710,12 +710,12 @@ const Portfolio = () => {
 
           {/* Education & Credentials */}
           <div className="bg-gradient-to-r from-purple-900/20 to-indigo-900/20 p-8 rounded-lg border border-purple-400/30 mb-12">
-            <h3 className="text-2xl font-bold text-white mb-6 text-center">Elite Credentials & Recognition</h3>
+            <h3 className="text-2xl font-bold text-white mb-6 text-center">Credentials & Recognition</h3>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center">
                 <div className="text-2xl mb-2">🎓</div>
                 <div className="text-purple-400 font-semibold">Master's in Financial Engineering</div>
-                <div className="text-gray-300 text-sm">WorldQuant University (2025)</div>
+                <div className="text-gray-300 text-sm">WorldQuant University (2026)</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl mb-2">🏆</div>
@@ -725,16 +725,16 @@ const Portfolio = () => {
               <div className="text-center">
                 <div className="text-2xl mb-2">📊</div>
                 <div className="text-purple-400 font-semibold">Published Research</div>
-                <div className="text-gray-300 text-sm">15K+ views in AI governance</div>
+                <div className="text-gray-300 text-sm">Published to 15,000+ readers</div>
               </div>
             </div>
           </div>
 
           {/* Call to Action */}
           <div className="text-center">
-            <h3 className="text-2xl font-bold text-white mb-4">Explore Elite Quantitative Portfolio</h3>
+            <h3 className="text-2xl font-bold text-white mb-4">Explore the Quantitative Portfolio</h3>
             <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
-              This software engineering portfolio showcases web applications and enterprise systems. For advanced quantitative research, financial modeling, and production trading systems, visit my specialized portfolio.
+              This portfolio covers web applications and full-stack systems. For quantitative research, risk modeling, and financial engineering work, see the quant portfolio.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -743,7 +743,7 @@ const Portfolio = () => {
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-cyan-400 to-blue-500 text-white px-8 py-4 rounded-lg font-semibold hover:from-cyan-500 hover:to-blue-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-cyan-400/25"
               >
-                🚀 View Elite Quant Portfolio
+                View the Quant Portfolio
               </a>
               <a
                 href="https://bidiascapitalconsulting.netlify.app"
@@ -751,7 +751,7 @@ const Portfolio = () => {
                 rel="noopener noreferrer"
                 className="border border-cyan-400 text-cyan-400 px-8 py-4 rounded-lg font-semibold hover:bg-cyan-400 hover:text-black transform hover:scale-105 transition-all duration-300"
               >
-                📊 Live Trading Demo
+                Consulting Site
               </a>
             </div>
           </div>

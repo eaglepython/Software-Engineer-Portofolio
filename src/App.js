@@ -106,7 +106,7 @@ const Portfolio = () => {
       liveUrl: 'https://bidiascapitalconsulting.netlify.app/',
       githubUrl: 'https://github.com/eaglepython/Finance-Architect-Portofolio',
       gradient: 'from-orange-400 to-yellow-500',
-      icon: '📊'
+      icon: '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>'
     },
     {
       id: 2,
@@ -118,7 +118,7 @@ const Portfolio = () => {
       liveUrl: 'https://bidias-e-com-full-stack-app.netlify.app',
       githubUrl: 'https://github.com/eaglepython/Bidias-E-Com-FullStack-App',
       gradient: 'from-red-400 to-pink-500',
-      icon: '🛒'
+      icon: '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>'
     },
     {
       id: 3,
@@ -130,7 +130,7 @@ const Portfolio = () => {
       liveUrl: 'https://eaglepython.github.io/Nexus/',
       githubUrl: 'https://github.com/eaglepython/Nexus',
       gradient: 'from-blue-400 to-cyan-500',
-      icon: '🌤️'
+      icon: '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>'
     },
     {
       id: 4,
@@ -142,7 +142,7 @@ const Portfolio = () => {
       liveUrl: 'https://javascript-dom-portfolio.netlify.app/',
       githubUrl: 'https://github.com/eaglepython/JavaScript-DOM-Portfolio',
       gradient: 'from-purple-400 to-indigo-500',
-      icon: '💻'
+      icon: '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>'
     },
     {
       id: 5,
@@ -154,7 +154,7 @@ const Portfolio = () => {
       liveUrl: 'https://eaglepython.github.io/DOM-Project/',
       githubUrl: 'https://github.com/eaglepython/DOM-Project',
       gradient: 'from-green-400 to-emerald-500',
-      icon: '📚'
+      icon: '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>'
     },
     {
       id: 6,
@@ -166,7 +166,7 @@ const Portfolio = () => {
       liveUrl: 'https://eaglepython.github.io/healthcare-llm-governance-toolkit/',
       githubUrl: 'https://github.com/eaglepython/healthcare-llm-governance-toolkit',
       gradient: 'from-emerald-400 to-teal-500',
-      icon: '🏥'
+      icon: '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>'
     },
     {
       id: 7,
@@ -178,7 +178,7 @@ const Portfolio = () => {
       liveUrl: 'https://eaglepython.github.io/multi-llm-orchestration-platform/',
       githubUrl: 'https://github.com/eaglepython/multi-llm-orchestration-platform',
       gradient: 'from-violet-400 to-purple-500',
-      icon: '🔀'
+      icon: '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>'
     },
     {
       id: 8,
@@ -190,17 +190,17 @@ const Portfolio = () => {
       liveUrl: 'https://eaglepython.github.io/ai-ethics-monitoring-dashboard/',
       githubUrl: 'https://github.com/eaglepython/ai-ethics-monitoring-dashboard',
       gradient: 'from-pink-400 to-rose-500',
-      icon: '⚖️'
+      icon: '<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><path d="M5 7h14"/><path d="M5 7l-3 6a3 3 0 0 0 6 0z"/><path d="M19 7l3 6a3 3 0 0 1-6 0z"/><path d="M8 21h8"/></svg>'
     }
   ];
 
   const projectCategories = [
-    { title: 'Algorithmic Trading Systems', icon: '📈' },
-    { title: 'E-Commerce Platforms', icon: '🛍️' },
-    { title: 'AI/ML Integration', icon: '🤖' },
-    { title: 'Full-Stack Applications', icon: '💻' },
-    { title: 'Performance Optimization', icon: '⚡' },
-    { title: 'Security Implementation', icon: '🔒' }
+    { title: 'Algorithmic Trading Systems', icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>' },
+    { title: 'E-Commerce Platforms', icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>' },
+    { title: 'AI/ML Integration', icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>' },
+    { title: 'Full-Stack Applications', icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>' },
+    { title: 'Performance Optimization', icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>' },
+    { title: 'Security Implementation', icon: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>' }
   ];
 
   const technologies = [
@@ -239,7 +239,7 @@ const Portfolio = () => {
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-cyan-400 to-blue-500 text-white px-4 py-1 rounded-md hover:from-cyan-500 hover:to-blue-600 transition-all duration-300 font-medium"
             >
-              📄 Resume
+              Resume
             </a>
           </div>
           
@@ -269,7 +269,7 @@ const Portfolio = () => {
               onClick={() => setMenuOpen(false)}
               className="block bg-gradient-to-r from-cyan-400 to-blue-500 text-white px-4 py-2 rounded-md hover:from-cyan-500 hover:to-blue-600 transition-all duration-300 font-medium mt-4"
             >
-              📄 Resume
+              Resume
             </a>
           </div>
         </div>
@@ -371,7 +371,7 @@ const Portfolio = () => {
             <div className="grid grid-cols-2 gap-6">
               {projectCategories.map((category, index) => (
                 <div key={index} className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-cyan-400/50 transition-colors">
-                  <div className="text-3xl mb-3">{category.icon}</div>
+                  <div className="mb-3 text-cyan-400 flex justify-center" dangerouslySetInnerHTML={{__html: category.icon}} />
                   <h3 className="text-white font-semibold text-sm">{category.title}</h3>
                 </div>
               ))}
@@ -404,9 +404,7 @@ const Portfolio = () => {
                 <div className="p-8">
                   <div className="flex items-start justify-between mb-6">
                     <div className="flex items-center space-x-4">
-                      <div className={`text-4xl p-3 rounded-lg bg-gradient-to-r ${project.gradient} bg-opacity-20`}>
-                        {project.icon}
-                      </div>
+                      <div className={`p-3 rounded-lg bg-gradient-to-r ${project.gradient} bg-opacity-20 text-white flex items-center justify-center`} dangerouslySetInnerHTML={{__html: project.icon}} />
                       <div>
                         <h3 className="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors">
                           {project.title}
@@ -486,7 +484,7 @@ const Portfolio = () => {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-gray-800/30 p-8 rounded-lg border border-gray-700">
-              <div className="text-4xl mb-4">💻</div>
+              <div className="mb-4 text-cyan-400" dangerouslySetInnerHTML={{__html: '<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>'}} />
               <h3 className="text-xl font-bold text-white mb-4">Programming Languages</h3>
               <div className="space-y-3">
                 <div className="flex justify-between items-center">
@@ -517,7 +515,7 @@ const Portfolio = () => {
             </div>
 
             <div className="bg-gray-800/30 p-8 rounded-lg border border-gray-700">
-              <div className="text-4xl mb-4">🤖</div>
+              <div className="mb-4 text-cyan-400" dangerouslySetInnerHTML={{__html: '<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>'}} />
               <h3 className="text-xl font-bold text-white mb-4">AI/ML & Data Science</h3>
               <div className="space-y-2 text-gray-300">
                 <div className="flex items-center space-x-2">
@@ -548,7 +546,7 @@ const Portfolio = () => {
             </div>
 
             <div className="bg-gray-800/30 p-8 rounded-lg border border-gray-700">
-              <div className="text-4xl mb-4">🌐</div>
+              <div className="mb-4 text-cyan-400" dangerouslySetInnerHTML={{__html: '<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>'}} />
               <h3 className="text-xl font-bold text-white mb-4">Web Development</h3>
               <div className="space-y-2 text-gray-300">
                 <div className="flex items-center space-x-2">
@@ -579,7 +577,7 @@ const Portfolio = () => {
             </div>
 
             <div className="bg-gray-800/30 p-8 rounded-lg border border-gray-700">
-              <div className="text-4xl mb-4">📊</div>
+              <div className="mb-4 text-cyan-400" dangerouslySetInnerHTML={{__html: '<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>'}} />
               <h3 className="text-xl font-bold text-white mb-4">Quantitative Finance</h3>
               <div className="space-y-2 text-gray-300">
                 <div className="flex items-center space-x-2">
@@ -614,17 +612,17 @@ const Portfolio = () => {
             <h3 className="text-2xl font-bold text-white mb-6 text-center">Cloud & DevOps</h3>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center">
-                <div className="text-3xl mb-3">☁️</div>
+                <div className="mb-3 text-cyan-400 flex justify-center" dangerouslySetInnerHTML={{__html: '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>'}} />
                 <h4 className="text-white font-semibold mb-2">Cloud Platforms</h4>
                 <p className="text-gray-400 text-sm">AWS, Azure, GCP</p>
               </div>
               <div className="text-center">
-                <div className="text-3xl mb-3">🐳</div>
+                <div className="mb-3 text-cyan-400 flex justify-center" dangerouslySetInnerHTML={{__html: '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>'}} />
                 <h4 className="text-white font-semibold mb-2">Containerization</h4>
                 <p className="text-gray-400 text-sm">Docker, Kubernetes</p>
               </div>
               <div className="text-center">
-                <div className="text-3xl mb-3">🔄</div>
+                <div className="mb-3 text-cyan-400 flex justify-center" dangerouslySetInnerHTML={{__html: '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>'}} />
                 <h4 className="text-white font-semibold mb-2">CI/CD</h4>
                 <p className="text-gray-400 text-sm">GitHub Actions, Jenkins</p>
               </div>
@@ -638,7 +636,7 @@ const Portfolio = () => {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-white mb-4">
-              📈 <span className="text-cyan-400">Quantitative Research</span> and Applied AI/ML
+              <span className="text-cyan-400">Quantitative Research</span> and Applied AI/ML
             </h2>
             <p className="text-gray-400 text-lg max-w-3xl mx-auto">
               Beyond web engineering, I keep a quantitative finance and AI/ML portfolio spanning econometrics, risk analytics, healthcare AI governance, and applied ML research.
@@ -649,9 +647,7 @@ const Portfolio = () => {
             {/* Live Trading Performance */}
             <div className="bg-gradient-to-br from-green-900/20 to-emerald-900/20 p-8 rounded-lg border border-green-400/30">
               <div className="flex items-center mb-6">
-                <div className="w-12 h-12 bg-green-400/20 rounded-lg flex items-center justify-center mr-4">
-                  📊
-                </div>
+                <div className="w-12 h-12 bg-green-400/20 rounded-lg flex items-center justify-center mr-4 text-green-400" dangerouslySetInnerHTML={{__html: '<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>'}} />
                 <h3 className="text-2xl font-bold text-white">Selected Highlights</h3>
               </div>
               <div className="space-y-4">
@@ -686,22 +682,22 @@ const Portfolio = () => {
             <h3 className="text-2xl font-bold text-white mb-6 text-center">Advanced Technology Stack</h3>
             <div className="grid md:grid-cols-4 gap-6">
               <div className="text-center">
-                <div className="text-3xl mb-3">🔬</div>
+                <div className="mb-3 text-cyan-400 flex justify-center" dangerouslySetInnerHTML={{__html: '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2h6M10 2v7l-4.8 8.5A2 2 0 0 0 7 20.5h10a2 2 0 0 0 1.8-3L14 9V2"/></svg>'}} />
                 <h4 className="text-white font-semibold mb-2">Quant Finance</h4>
                 <p className="text-gray-400 text-sm">VQE/QAOA Quantum, Portfolio Optimization, Risk Management</p>
               </div>
               <div className="text-center">
-                <div className="text-3xl mb-3">🧠</div>
+                <div className="mb-3 text-cyan-400 flex justify-center" dangerouslySetInnerHTML={{__html: '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>'}} />
                 <h4 className="text-white font-semibold mb-2">Deep Learning</h4>
                 <p className="text-gray-400 text-sm">LSTM, Transformers, Multi-head Attention, CNNs</p>
               </div>
               <div className="text-center">
-                <div className="text-3xl mb-3">⚡</div>
+                <div className="mb-3 text-cyan-400 flex justify-center" dangerouslySetInnerHTML={{__html: '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>'}} />
                 <h4 className="text-white font-semibold mb-2">Trading Tech</h4>
                 <p className="text-gray-400 text-sm">OANDA API, WebSocket, low-latency design</p>
               </div>
               <div className="text-center">
-                <div className="text-3xl mb-3">🏥</div>
+                <div className="mb-3 text-cyan-400 flex justify-center" dangerouslySetInnerHTML={{__html: '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>'}} />
                 <h4 className="text-white font-semibold mb-2">Healthcare AI</h4>
                 <p className="text-gray-400 text-sm">Clinical ML, Predictive Analytics, Bias Detection</p>
               </div>
@@ -713,17 +709,17 @@ const Portfolio = () => {
             <h3 className="text-2xl font-bold text-white mb-6 text-center">Credentials & Recognition</h3>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center">
-                <div className="text-2xl mb-2">🎓</div>
+                <div className="mb-2 text-purple-400 flex justify-center" dangerouslySetInnerHTML={{__html: '<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1 2.5 3 6 3s6-2 6-3v-5"/></svg>'}} />
                 <div className="text-purple-400 font-semibold">Master's in Financial Engineering</div>
                 <div className="text-gray-300 text-sm">WorldQuant University (2026)</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl mb-2">🏆</div>
+                <div className="mb-2 text-purple-400 flex justify-center" dangerouslySetInnerHTML={{__html: '<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><polyline points="8.21 13.89 7 22 12 19 17 22 15.79 13.88"/></svg>'}} />
                 <div className="text-purple-400 font-semibold">AI 2030 Global Fellow</div>
                 <div className="text-gray-300 text-sm">International AI Governance</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl mb-2">📊</div>
+                <div className="mb-2 text-purple-400 flex justify-center" dangerouslySetInnerHTML={{__html: '<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>'}} />
                 <div className="text-purple-400 font-semibold">Published Research</div>
                 <div className="text-gray-300 text-sm">Published to 15,000+ readers</div>
               </div>
@@ -843,9 +839,7 @@ const Portfolio = () => {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center space-x-3 text-cyan-400 hover:text-white transition-colors group"
                 >
-                  <div className="w-10 h-10 bg-cyan-400/20 rounded-lg flex items-center justify-center group-hover:bg-cyan-400/30 transition-colors">
-                    📄
-                  </div>
+                  <div className="w-10 h-10 bg-cyan-400/20 rounded-lg flex items-center justify-center group-hover:bg-cyan-400/30 transition-colors text-cyan-400" dangerouslySetInnerHTML={{__html: '<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>'}} />
                   <div className="text-center">
                     <div className="font-semibold">Download Resume</div>
                     <div className="text-sm text-gray-400">PDF Available</div>
@@ -928,10 +922,10 @@ const Portfolio = () => {
             <div>
               <h3 className="text-white font-semibold mb-4">Featured Projects</h3>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">→ Quantum Trading System</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">→ E-Commerce Platform</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">→ Weather Intelligence</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">→ BookVault Library</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">Quantum Trading System</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">E-Commerce Platform</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">Weather Intelligence</a></li>
+                <li><a href="#" className="text-gray-400 hover:text-cyan-400 transition-colors">BookVault Library</a></li>
               </ul>
             </div>
             

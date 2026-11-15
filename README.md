@@ -33,7 +33,7 @@ I am a full-stack engineer who works across the stack, from React front ends to 
 
 **Currently**
 
-- M.S. in Financial Engineering at WorldQuant University (in progress)
+- M.S. in Financial Engineering at WorldQuant University (completed June 2026)
 - AI Innovation Fellow building Microsoft 365 based tools in local government
 - Open to full-time software engineering and contract work
 
@@ -148,7 +148,7 @@ For the full quantitative work, including the QuantRisk risk platform and the re
 
 ## Education and certifications
 
-- M.S. Financial Engineering, WorldQuant University (in progress)
+- M.S. Financial Engineering, WorldQuant University (completed June 2026)
 - B.S. Biomedical Engineering, High Institute of Medical Technologies, Yaoundé, Cameroon
 - NPower App Development Program, Full-Stack Developer
 - AWS Machine Learning Specialty
